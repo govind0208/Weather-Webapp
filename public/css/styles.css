@@ -68,11 +68,10 @@ input:focus {
 }
 
 .fa-search {
-    color: #607D8B;
-    background-color: #E1F5FE;
-    font-size: 20px;
-    padding: 20px;
-    width: 20%;
+    color: #B0BEC5;
+    background-color: #607D8B;
+    font-size: 15px;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -88,6 +87,13 @@ input:focus {
 .line {
     height: 1px;
     background-color: #B0BEC5;
+}
+
+div > button{
+    border: 0px;
+    background-color: #607D8B;
+    border-radius: 30%;
+
 }
 
 @media screen and (max-width: 500px) {
