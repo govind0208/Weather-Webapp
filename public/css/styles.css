@@ -67,14 +67,6 @@ input:focus {
     color: #B0BEC5 !important;
 }
 
-.fa-search {
-    color: #B0BEC5;
-    background-color: #607D8B;
-    font-size: 15px;
-    padding: 10px;
-    cursor: pointer;
-}
-
 .light-text {
     color: #B0BEC5;
 }
