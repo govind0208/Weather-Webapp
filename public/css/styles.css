@@ -88,20 +88,25 @@ div > button{
 
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (min-width: 600px) {
     .card1 {
         padding-left: 26px;
     }
+    
+    
 }
+ 
+    
+
 
 .card{
     width: 90%;
-    max-width: 470px;
+    min-width: auto;
     background:   #607D8B;
     color: #fff;
-    margin: 20px auto 0;
+    margin: 10px auto 0;
     border-radius: 20px;
-    padding: 40px 35px;
+    padding: 20px 20px;
     text-align: center;
 }
 
@@ -119,7 +124,7 @@ div > button{
     background: #ebfffc; 
     color: #555;
     padding: 20px 25px;
-    height: 60px;
+    height: 40px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
@@ -131,8 +136,8 @@ div > button{
     outline: 0;
     background: #ebfffc; 
     border-radius: 50%;
-    width: 60px;
-    height: 60px; 
+    width: 40px;
+    height: 40px; 
     cursor: pointer;
 }
 
